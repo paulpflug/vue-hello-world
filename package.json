@@ -16,7 +16,7 @@
     "atom-vue-component-loader": "0.0.3"
   },
   "devDependencies": {
-    "simple-reload": "0.0.3",
+    "simple-reload": "0.0.2",
     "atom-vue-component-compiler": "0.0.2"
   }
 }
