@@ -17,7 +17,6 @@ module.exports = new class VueHelloWorld
 
     # Watches changes to redraw modal
     if atom.inDevMode()
-      @redraw()
       rootDir = new Directory(atom.packages.resolvePackagePath("vue-hello-world"))
       @subscriptions.add rootDir.getSubdirectory("lib").onDidChange @redraw
       @subscriptions.add rootDir.getSubdirectory("components").onDidChange @redraw
