@@ -1,7 +1,7 @@
 {
   "name": "vue-hello-world",
-  "main": "./lib/vue-hello-world",
-  "version": "0.0.3",
+  "main": "./lib/main",
+  "version": "0.1.0",
   "description": "Boilerplate package to use vue.js within atom",
   "keywords": [],
   "activationCommands": {
@@ -13,10 +13,11 @@
     "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {
-    "atom-vue-component-loader": "0.0.4"
+    "atom-simple-logger": "~0.0.1",
+    "atom-vue-component-loader": "~0.0.6"
   },
   "devDependencies": {
-    "simple-reload": "0.0.2",
-    "atom-vue-component-compiler": "0.0.2"
+    "atom-package-reloader": "~0.0.2",
+    "atom-vue-component-compiler": "~0.0.4"
   }
 }
