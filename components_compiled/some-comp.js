@@ -1,2 +1,12 @@
-var __vue_template__ = "message from some-comp";
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = __vue_template__;
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n  message from some-comp\n"
+if (module.hot) {(function () {  module.hot.accept()
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), true)
+  if (!hotAPI.compatible) return
+  var id = "/home/peaul"
+  if (!module.hot.data) {
+    hotAPI.createRecord(id, module.exports)
+  } else {
+    hotAPI.update(id, module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+  }
+})()}
