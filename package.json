@@ -25,6 +25,6 @@
     }
   },
   "dependencies": {
-    "vue": "git+https://github.com/vuejs/vue.git#v1.0.12-csp"
+    "vue": "1.0.15-csp"
   }
 }
