@@ -26,5 +26,8 @@
   },
   "dependencies": {
     "vue": "1.0.15-csp"
+  },
+  "scripts": {
+    "patch": "npm version patch;npm publish;git push;git push --tags"
   }
 }
